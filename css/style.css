@@ -1,0 +1,276 @@
+*{margin:0;
+padding: 0}
+
+.footer{
+	background-color: black;
+	width: 1537px;
+	height: 99px;
+}
+.head1{
+	position: fixed;
+}
+.footer1{
+	float: left;
+}
+.footer2{
+	padding-top: 40px;
+	float: left;
+	margin-left: 650px;
+}
+.textfield{
+	border-radius: 1rem;
+}
+.menu{
+	color: white;
+	background-color: black;
+	width: 1537px;
+	height: 25px;
+
+}
+.menu1{
+	color: black;
+	list-style-type: none;
+	margin-left: 155px;
+	height: 100px;
+}
+.menu1 li{
+	float: left;
+	
+	padding-left: 15px;
+	color: white;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	font-family: tahoma;
+	font-size: 15px;
+	padding-left: 5px;
+}
+.put_contents{
+	margin-top: -4px;
+	background-color: #DCDCDC;
+	width: 1590px;
+	margin-right: 10px;
+	float: left;
+}
+.block56{
+	padding-top: 5px;
+	float: left;
+	margin-right: 20px;
+}
+
+.imagefoot{
+	height: 500px;
+	width: 1200px;
+	margin-left: 180px;
+}
+.imagefoot1{
+	width: 380px;
+	float: left;
+}
+.imagefoot2{
+	width: 380px;
+	float: left;
+	margin-left: 10px;
+}
+.imagefoot3{
+	margin-left: 785px;
+	margin-right: 180px;
+}
+.footer123{
+	height:316px;
+	background-color: #FAFBFC;
+	width: 1512px;
+}
+.AboutUs{
+	margin-left: 80px;
+	width: 370px;
+	margin-top: 50px;
+	float: left;
+}
+.company{
+	color: #c2c2d6;
+	margin-left:175px;
+	padding-top: 45px;
+	float: left;
+}
+.address{
+	margin-left: 995px;
+	margin-top: 50px;
+	padding-top: 46px;
+}
+.form-control{
+	margin-right: -5px;
+}
+.dilbtn{
+	background-color: red;
+	border-radius: 5px;
+	padding: 
+}
+.lastfooter{
+	height: 100px;
+	background-color: #FAFBFC;
+	color: grey;
+}
+.dilend{
+	margin-left: 100px;
+	padding-top: 40px;
+	float: left;
+}
+
+/*<last-->*/
+.diliplist{
+	margin-left: 1100px;
+	padding-top: 40px;
+}
+.diliplist li{
+	display: inline-block;
+	padding-left: 7px;
+}
+.myntra-copy{
+	background-color: #FAFBFC;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+.myntra-copy h4{
+	color:#1a0000;
+	font-family: Whitney-SemiBold, Whitney;
+}
+.myntra-copy p{
+	color:#C0C0C0;
+}
+
+
+/*dropdown*/
+.dropbtn {
+  /*color: white;*/
+  /*padding: 16px;*/
+  /*font-size: 16px;*/
+  /*border: none;*/
+}
+
+.dropdown {
+  /*display: inline-block;*/
+}
+
+.dropdown-content {
+  display: none;
+  /*background-color: #f1f1f1;*/
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+   /*color: black;*/
+  /*padding: 12px 16px;*/
+  /*text-decoration: none;*/
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #e0e0d1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

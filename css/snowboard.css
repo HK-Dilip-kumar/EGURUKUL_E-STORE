@@ -1,0 +1,36 @@
+.main_div{
+
+width: 1100px;
+height: 400px;
+margin-top: -6px;
+margin-left: 206px;
+}
+.div_1{
+	height: 320px;
+	width: 300px;
+	margin-left: 50px;
+	float: left;	
+}
+.div_2{
+	height: 320px;
+	width: 900px
+	margin-left: 50px;
+	float: left;
+
+}
+.lastfooter{
+	height: 100px;
+	background-color: #FAFBFC;
+	color: grey;
+}
+.dilend{
+	margin-left: 100px;
+	padding-top: 40px;
+	float: left;
+}
+
+/*<last-->*/
+.diliplist{
+	margin-left: 1100px;
+	padding-top: 40px;
+}

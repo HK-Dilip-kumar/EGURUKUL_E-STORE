@@ -1,0 +1,89 @@
+*{margin:0;
+padding: 0}
+body{
+	background-color: yellow;
+
+}
+.footer{
+	background-color: black;
+	width: 1537px;
+	height: 99px;
+}
+.head1{
+	position: fixed;
+}
+.footer1{
+	float: left;
+}
+.footer2{
+	padding-top: 40px;
+	float: left;
+	margin-left: 650px;
+}
+.textfield{
+	border-radius: 1rem;
+}
+.menu{
+	color: white;
+	background-color: black;
+	width: 1537px;
+	height: 25px;
+
+}
+.menu1{
+	color: black;
+	list-style-type: none;
+	margin-left: 155px;
+	height: 100px;
+}
+.menu1 li{
+	float: left;
+	
+	padding-left: 15px;
+	color: white;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	font-family: tahoma;
+	font-size: 15px;
+	padding-left: 5px;
+}
+.div_1{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 2px;
+}
+.div_2{
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+}
+.div_3{
+	height: 200px;
+	width: 200px;
+	margin-left: 1317px;
+}
+.lastfooter{
+	margin-top: 500px;
+	height: 100px;
+	background-color: #FAFBFC;
+	color: grey;
+}
+.dilend{
+	margin-left: 100px;
+	padding-top: 40px;
+	float: left;
+}
+
+/*<last-->*/
+.diliplist{
+	margin-left: 1100px;
+	padding-top: 40px;
+}
+.diliplist li{
+	display: inline-block;
+	padding-left: 7px;
+}
