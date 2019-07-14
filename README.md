@@ -1,0 +1,3 @@
+# EGURUKUL_E-STORE
+A website where i have used html, css, javascript, jquery and bootstrap to make the website more user interactive and good user experience.
+#MY MAIN FILE STARTS FROM index.html and so on...
